@@ -13,19 +13,22 @@
 - [Rahul](NAME)
 - [Innovate](NAME)
 - [ashish](NAME:Ashish)
+- [ashish](NAME:Ashish)
 
 ## intent:facing_issue
 - I am facing [network issues](NETWORK). Every time I give a call, there is a call drop after connection. Sometimes it also takes more than 2 minutes to connect a call.
 - facing [network issues](NETWORK) every time I make a call. Sometime it takes a time longer than usual.
-- I am facing [network issues](NETWORK). Every time I give a call, there is a call drop after connection. Sometimes it also takes more than 2 minutes to connect a call.
 
 ## intent:headset
-- I am using a [samsung](BRAND) phone.
+- I am using a [samsung](BRAND:samsung) phone.
 - I have [One plus](BRAND) mobile
 - I am using [one +](BRAND:One plus)
 - I use [I-phone](BRAND)
 - I prefer [i phone](BRAND:I-phone)
 - i am using [one plus](BRAND:One plus) mobile
+- i am using [sam sung](BRAND:samsung)
+- i am using [oneplus](BRAND:One plus) mobile
+- i am using [nokia](BRAND) mobile
 
 ## intent:guide_me
 - Could you please guide me?
@@ -103,11 +106,7 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-## synonym:Ashish
-- ashish
+## intent:number
+- [7](num:7)
+- [seven](num:7)
 
-## synonym:I-phone
-- i phone
-
-## synonym:One plus
-- one +
